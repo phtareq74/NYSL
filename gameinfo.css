@@ -1,0 +1,163 @@
+
+
+body{
+    width: 100%;
+    margin:0px;
+    background-color: beige;
+    display: flex;
+   
+}
+.body{
+    width: 1300px;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+   
+}
+.flexbody{
+ width: 80%;
+resize: vertical;
+margin-left: 20px
+
+}
+
+.flexheader{
+  height: 120px; 
+ display: flex;
+justify-content: space-between;
+    
+}
+.header {
+    font-family: sans;
+   font-style:italic;
+    font-size: 24px;
+   color:firebrick;
+    
+}
+
+.image{
+
+width:25%; 
+   display: flex;
+  justify-content: center;
+   
+}
+.logo {
+  width: 150px;
+   
+ }
+.main {
+width: 100%;
+ height: 420px;
+margin-top: 10px;
+}
+
+
+.listcontainer{
+  width: 15%;
+  align-items: stretch;
+    background-color:lightgray;
+       
+}
+
+.list{
+  margin-top: 50px;
+  position: fixed; 
+    text-align: left;
+}
+
+ul  li {
+  list-style:none;
+    margin-bottom: 60px;
+}
+ul li a{
+  color: green;
+     text-decoration: none;  
+}
+
+ .active {
+   color: gray;
+    text-decoration: none;
+}
+
+.gameinfo{
+  width: 99%;
+    height: 60px;
+    background-color: lightgray;
+    color: green;
+     font-family: monospace;
+    font-size:32px;
+    border:solid 2px grey;
+    padding: 5px;
+   margin-top: 0;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-family: sans-serif;
+}
+#gameday{
+    
+    text-decoration: underline;
+}
+table{
+    width: 100%;
+     border-spacing: 0;
+    border-width: 0;
+
+}
+th{
+   
+    text-decoration: underline;
+    width: 25%;
+    text-align: center;
+}
+
+
+td{
+ 
+   border-width: 0;
+    width: 25%;
+    text-align: center;
+}
+td:first-child /*td:nth-child(1)*/{
+    padding-left: 30px;
+}
+.location{
+    width: 100%;
+    border: 2px solid #ddd;
+}
+.location td{
+    border-bottom: 2px solid #66BB6A;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+iframe {
+    width:70%;
+    height: 70%;
+    
+}
+.mapstyle {
+    display: flex;
+    justify-content: center;
+}
+
+
+ 
+.margin-bottom {
+    margin-bottom: 15px
+}
+.flexlocation{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #C8E6C9;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

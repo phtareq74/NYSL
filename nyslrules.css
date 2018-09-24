@@ -1,0 +1,119 @@
+
+
+body{
+    width: 100%;
+    margin:0px;
+    background-color: beige;
+    display: flex;
+ 
+   
+}
+.body{
+    width: 1300px;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+   
+}
+.flexbody{
+ width: 80%;
+resize: vertical;
+margin-left: 20px;
+
+
+}
+
+.flexheader{
+  height: 120px; 
+ display: flex;
+justify-content: space-between;
+    
+}
+.header {
+    font-family: sans;
+   font-style:italic;
+    font-size: 24px;
+   color:firebrick;
+    
+}
+
+.image{
+
+width:25%; 
+   display: flex;
+  justify-content: center;
+   
+}
+.logo {
+  width: 150px;
+   
+ }
+.main {
+width: 100%;
+ height: 420px;
+margin-top: 10px;
+}
+
+
+.listcontainer{
+  width: 15%;
+  align-items: stretch;
+    background-color:lightgray;
+    
+       
+}
+
+.list{
+  margin-top: 50px;
+  position: fixed; 
+    text-align: left;
+}
+
+ul  li {
+  list-style:none;
+    margin-bottom: 60px;
+}
+ul li a{
+  color: green;
+     text-decoration: none;
+
+}
+
+
+ .active {
+   color: gray;
+    text-decoration: none;
+}
+
+.gameinfo{
+ width: 99%;
+    height: 60px;
+    background-color: lightgray;
+    color: green;
+     font-family: monospace;
+    font-size:32px;
+    border:solid 2px grey;
+    padding: 5px;
+   margin-top: 0;
+   margin-bottom: 0px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textrules h3{
+    margin-top:10px;
+}
+
+
+.fields{
+    list-style-type: lower-alpha;
+}
+.infoselected{
+    list-style-type: square;
+}
+#allplay{
+    list-style-type: circle;
+}
+.areastyle{
+    background-color: #C8E6C9;
+}
